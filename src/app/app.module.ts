@@ -6,6 +6,7 @@ import { FooterComponent } from './footer/footer-component';
 import { HeaderComponent } from './header/header-component';
 import { MainCardComponent } from './cards/main-card';
 import { Filter1Component } from './filter-bars/filter-bar-1';
+import { SideCardComponent } from './cards/sidecards/side-card';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { Filter1Component } from './filter-bars/filter-bar-1';
     HeaderComponent,
     FooterComponent,
     MainCardComponent,
-    Filter1Component
+    Filter1Component,
+    SideCardComponent
   ],
   imports: [
     BrowserModule

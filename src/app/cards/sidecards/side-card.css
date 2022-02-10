@@ -1,0 +1,36 @@
+.fm {
+    text-decoration:none;
+}
+.fm:hover {
+    text-decoration:underline;
+}
+
+.card-size
+{
+    width: "100";
+    height: "100";
+}
+
+.text-position {
+    position: absolute;
+    bottom: 0;
+  }
+
+.card-brightness
+{
+    filter:brightness(0.5)
+}
+
+.card-brightness:hover
+{
+    filter:brightness(0.8)
+}
+
+.subfont {
+    font-size: 10px;
+  }
+
+.card-button
+{
+    outline: none;
+}

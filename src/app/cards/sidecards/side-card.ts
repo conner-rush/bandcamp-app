@@ -1,14 +1,14 @@
 import { Component, Input } from "@angular/core";
 
 @Component({
-    selector: 'bandcamp-main-card',
-    templateUrl: 'main-card.html',
-    styleUrls: ['main-card.css']
+    selector: 'bandcamp-side-card',
+    templateUrl: 'side-card.html',
+    styleUrls: ['side-card.css']
 })
-export class MainCardComponent {
+export class SideCardComponent {
     @Input() img:string;
-    head: string;
-    type: string;
+    @Input()head: string;
+    @Input()type: string;
 
     constructor()
     {
