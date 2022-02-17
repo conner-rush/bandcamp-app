@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header-component';
 import { MainCardComponent } from './cards/main-card';
 import { Filter1Component } from './filter-bars/filter-bar-1';
 import { SideCardComponent } from './cards/sidecards/side-card';
+import { AppRoutingModule } from './app-routing.module';
+import { MainStoryComponent } from './routing/main-story.component';
 
 @NgModule({
   declarations: [
@@ -15,10 +17,12 @@ import { SideCardComponent } from './cards/sidecards/side-card';
     FooterComponent,
     MainCardComponent,
     Filter1Component,
-    SideCardComponent
+    SideCardComponent,
+    MainStoryComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

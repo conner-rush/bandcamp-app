@@ -1,0 +1,9 @@
+This week, I've gotten my project started with routing, and I've gotten things set up for easy implimentation in the near fututre.
+    - Angular Routing was imported into my project
+    - app-routinng.ts was created
+    - main-story.html and man-story.component.html were created.
+    - A test code was implimented that successfully created a "Hello World" header through routing.
+
+However, I've unfortunately fallen a bit behind this time around.  Between other classes and my actual software development job,
+I ended up forgetting about this week's lab assignment. On top of this, I also have reason to believe I've been infected with COVID-19.
+I'm terribly sorry, and I'm going to try to work to get everything back on track.
