@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { mock_product_list } from './cards/sidecards/mock-product';
-import { ProductItemModel } from './cards/sidecards/product-item-model';
+
 
 @Component({
   selector: 'app-root',
@@ -9,14 +8,5 @@ import { ProductItemModel } from './cards/sidecards/product-item-model';
 })
 export class AppComponent {
   title = 'bandcamp-project';
-  products: ProductItemModel [] = [];
-
-  constructor()
-  {
-    for (var product of mock_product_list)
-    {
-      console.log(product);
-      this.products.push(product);
-    }
-  }
+  
 }

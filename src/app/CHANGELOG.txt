@@ -1,9 +1,26 @@
+(02/17/22)
 This week, I've gotten my project started with routing, and I've gotten things set up for easy implimentation in the near fututre.
     - Angular Routing was imported into my project
     - app-routinng.ts was created
     - main-story.html and man-story.component.html were created.
     - A test code was implimented that successfully created a "Hello World" header through routing.
 
-However, I've unfortunately fallen a bit behind this time around.  Between other classes and my actual software development job,
-I ended up forgetting about this week's lab assignment. On top of this, I also have reason to believe I've been infected with COVID-19.
-I'm terribly sorry, and I'm going to try to work to get everything back on track.
+(02/20/22)
+Over the weekend, I was able to double down and add many more routing components to my project.
+    - The 'main-story' component is linked to the main card on the homepage (via the 'read more' button)
+    - the login page is now active and can be reached through the corresponding  button
+    - All base-level genre filters in the dropdown search bar are now linked to corresponding components.
+
+While this is only seems like 3 different routings,, the genre routing is actually comprised of 9 different routing components, meaning that,
+in total, this site now contains 11 different routing coponents.  The following components are accessible under the genre dropdown.
+    - Alternative
+    - Ambient
+    - Electronic
+    - Experimental
+    - Hip-hop/Rap
+    - Metal
+    - Pop
+    - Punk
+    - Rock
+
+Thank you so much for this extended grace period.  I genuinely appreciate it!
