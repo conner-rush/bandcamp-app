@@ -20,11 +20,13 @@ import { MetalComponent } from './routing/genres/metal.component';
 import { PopComponent } from './routing/genres/pop.component';
 import { PunkComponent } from './routing/genres/punk.component';
 import { RockComponent } from './routing/genres/rock.component';
+import { Header2Component } from './header/header-component-2';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
+    Header2Component,
     FooterComponent,
     MainCardComponent,
     Filter1Component,

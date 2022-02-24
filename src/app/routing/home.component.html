@@ -1,19 +1,36 @@
-<h1>HOME Page</h1>
+<!--><h1>HOME Page</h1><-->
+<bandcamp-header>Loading...</bandcamp-header>
 <div class="container-fluid" style="background-color: rgb(34, 34, 34)">
+  <div class="d-flex justify-content-center">
     <bandcamp-main-card>
       Loading...
     </bandcamp-main-card>
-<div *ngFor="let product of products">
-    <bandcamp-side-card img = {{product.img}} head = {{product.head}} type = {{product.type}}> 
-      Loading...      
-    </bandcamp-side-card>
+    <div class="d-flex flex-column">
+    <div *ngFor="let product of products">      
+        <bandcamp-side-card img = {{product.img}} head = {{product.head}} type = {{product.type}}> 
+            Loading...      
+        </bandcamp-side-card>
+      </div>
+    </div>
   </div>
+</div>
+
+<div class="container-fluid" style="background-color: rgb(255, 255, 255)">
+DIV 1
+  </div>
+
+<div class="container-fluid" style="background-color: rgb(242, 238, 243)">
+DIV 2
   </div>
 
   <bandcamp-filter-1>
     Loading...
   </bandcamp-filter-1>
-  
+
+<div class="container-fluid" style="background-color: rgb(242, 238, 243)">
+    DIV 3
+    </div>
+
   <bandcamp-footer>
     Loading...
   </bandcamp-footer>

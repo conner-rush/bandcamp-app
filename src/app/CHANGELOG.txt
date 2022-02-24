@@ -24,3 +24,13 @@ in total, this site now contains 11 different routing coponents.  The following 
     - Rock
 
 Thank you so much for this extended grace period.  I genuinely appreciate it!
+
+(02/23/22)
+Just a reminder that I have pre-approved bonus points for this week carried over from last week, as I had created more than double the amount
+of required router components.
+    - Flex Layout was implemented into the home page to get the story cards aligned properly.  The main story is now aligned horizontally and centerd
+    with the side story card, which remain vertically aligned.  Thi was done with 2 flex layout methods.
+EXTRA (Possibly for next week?)
+    - Added some fluid containers where I will put the remainder of my homepage.  These are accurate to the website, 
+    and are currently labeled as "DIV1, "DIV2", and DIV3".
+    - Started creating the basics of a log in page.  Currently very ugly.
