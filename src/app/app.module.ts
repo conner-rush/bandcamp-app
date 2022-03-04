@@ -21,6 +21,8 @@ import { PopComponent } from './routing/genres/pop.component';
 import { PunkComponent } from './routing/genres/punk.component';
 import { RockComponent } from './routing/genres/rock.component';
 import { Header2Component } from './header/header-component-2';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -42,11 +44,13 @@ import { Header2Component } from './header/header-component-2';
     MetalComponent,
     PopComponent,
     PunkComponent,
-    RockComponent
+    RockComponent,
+    UserInfoComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

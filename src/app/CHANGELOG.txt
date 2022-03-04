@@ -34,3 +34,6 @@ EXTRA (Possibly for next week?)
     - Added some fluid containers where I will put the remainder of my homepage.  These are accurate to the website, 
     and are currently labeled as "DIV1, "DIV2", and DIV3".
     - Started creating the basics of a log in page.  Currently very ugly.
+
+(03/02/22)
+Created a backend with user info as shown in the lecture exactly as presented by Nikola.
