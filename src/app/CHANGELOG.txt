@@ -37,3 +37,10 @@ EXTRA (Possibly for next week?)
 
 (03/02/22)
 Created a backend with user info as shown in the lecture exactly as presented by Nikola.
+
+(03/10/22)
+A backlog data get was set up for my side cards on my homepage.  The code should grab data from my backend to be used on the homepage
+    - The info was established in the firebase backend
+    - A story.service.ts cde was generated
+ISSUE: It seems that my data is for some reason not getting to my site properly.  This accounts for both user info AND Story info.
+Not sure what the issue is, but will continue to investigate.
