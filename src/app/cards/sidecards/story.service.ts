@@ -5,8 +5,7 @@ import { ProductItemModel } from "./product-item-model";
 @Injectable({
     providedIn: 'root'
 })
-export class StoryService 
-{
+export class StoryService {
 
     private baseUrl: string = 'https://bandcamp-project-f1a1f-default-rtdb.firebaseio.com/';
     private storiesEndPoint: string = 'stroies.json';
