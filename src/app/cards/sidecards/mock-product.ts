@@ -5,13 +5,13 @@ export const mock_product_list = [
     type: "FEATURE"
 },
 {
-    img:"assets/Side-Card-3.jpeg",
-    head: "he Best Hip-Hop on Bandcamp: January 2022",
-    type: "FEATURE"
-},
-{
     img:"assets/Side-Card-2.jpeg",
     head: "Milwaukee's Music Scene Converges in Credentials",
     type: "FEATURE"
 },
+{
+    img:"assets/Side-Card-3.jpeg",
+    head: "The Best Hip-Hop on Bandcamp: January 2022",
+    type: "FEATURE"
+}
 ];
