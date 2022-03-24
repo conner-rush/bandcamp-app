@@ -37,3 +37,7 @@ EXTRA (Possibly for next week?)
 
 (03/02/22)
 Created a backend with user info as shown in the lecture exactly as presented by Nikola.
+
+(03/23/22)
+Set up my project with a firebase realtime database and URL.  All firebase imports have been made in the project.
+I'm still having some issues getting my backend info into my site.  Not entirely sure why.  Will reach out for direction soon.

@@ -1,27 +1,24 @@
-import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { ProductItemModel } from "./product-item-model";
+import { AngularFireDatabase } from '@angular/fire/compat/database';
+
 
 @Injectable({
     providedIn: 'root'
 })
 export class StoryService {
 
-    private baseUrl: string = 'https://bandcamp-project-f1a1f-default-rtdb.firebaseio.com/';
-    private storiesEndPoint: string = 'stroies.json';
-
-    constructor(private http:HttpClient) {
+    constructor(private db:AngularFireDatabase) {
         
     }
 
-public getStories()
-{
-    return this.http.get<ProductItemModel []>(this.baseUrl + this.storiesEndPoint);
-}
+    public getStories() {
+        return this.db.list<ProductItemModel>("products").valueChanges();   
+    }
 
-public getStory(index: number)
-{
-    return this.http.get<ProductItemModel>(this.baseUrl + "stories/" + index + ".json");
+    public getStory(index: number) {
+        return this.db.list("products", ref => ref.orderByChild("type").startAt(10)).valueChanges();
 
-}
+    }
+
 }

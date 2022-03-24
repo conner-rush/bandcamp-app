@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "bandcamp-project-f1a1f"
+  },
+  "targets": {
+    "bandcamp-project-f1a1f": {
+      "hosting": {
+        "bandcamp-project": [
+          "bandcamp-project-f1a1f"
+        ]
+      }
+    }
+  }
+}
