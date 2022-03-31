@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row">
+        <div class="col-a">
+            <form #postForm="ngForm" (ngSubmit)="addStory(postForm.value)">
+              <div class="input-group">
+                <span class = "input-group-text">
+                   Thumbnail
+                </span>
+                <input type ="text" class="form-control" ngModel name="img" required>
+            </div>
+  
+                <div class="input-group">
+                    <span class = "input-group-text">
+                       Title
+                    </span>
+                    <input type ="text" class="form-control" ngModel name="head" required>
+                </div>
+
+                <div class="input-group">
+                    <span class = "input-group-text">
+                       Type
+                    </span>
+                    <input type ="text" class="form-control" ngModel name="type" required>
+                </div>
+  
+                <button class="btn" type="submit" [disabled]="!postForm.valid">Submit</button>
+            </form>
+        </div>
+    </div>
+  </div>

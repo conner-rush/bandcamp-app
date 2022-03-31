@@ -21,4 +21,9 @@ export class StoryService {
 
     }
 
+    public addStory(product:ProductItemModel)
+    {
+        this.db.list<ProductItemModel>("products").push(product);
+    }
+
 }

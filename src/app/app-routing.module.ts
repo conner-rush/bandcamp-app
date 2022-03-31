@@ -13,6 +13,7 @@ import { MetalComponent } from './routing/genres/metal.component';
 import { PopComponent } from './routing/genres/pop.component';
 import { PunkComponent } from './routing/genres/punk.component';
 import { RockComponent } from './routing/genres/rock.component';
+import { AddProductComponent } from './forms/add-product/add-product.component';
 
 const routes:Route [] = [
   {
@@ -53,6 +54,9 @@ const routes:Route [] = [
   },
   {
     path: 'main-story', component: MainStoryComponent
+  },
+  {
+    path: 'admin', component: AddProductComponent
   }
 ];
 

@@ -28,6 +28,8 @@ import { UserInfoComponent } from './user-info/user-info.component';
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
+import { AddProductComponent } from './forms/add-product/add-product.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -51,13 +53,15 @@ import { provideDatabase,getDatabase } from '@angular/fire/database';
     PunkComponent,
     RockComponent,
     UserInfoComponent,
+    AddProductComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    FormsModule
     ],
   providers: [],
   bootstrap: [AppComponent]

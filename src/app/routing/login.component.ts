@@ -1,9 +1,19 @@
-import { Component } from "@angular/core";
+import { ProductItemModel } from "../cards/sidecards/product-item-model";
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-    selector: 'login',
-    templateUrl: 'login.component.html'
+    selector: 'fm-login',
+    templateUrl: 'login.component.html',
+    styleUrls: ['login.component.css']
 })
-export class LoginComponent{
+export class LoginComponent implements OnInit {
+    constructor() { }
+
+    ngOnInit(): void {
+    }
     
+    login(product:ProductItemModel) {
+        console.log("You pressed login");
+        console.log(product);
+    }
 }
