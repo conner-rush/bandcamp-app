@@ -30,6 +30,7 @@ import { environment } from '../environments/environment';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { AddProductComponent } from './forms/add-product/add-product.component';
 import { FormsModule } from '@angular/forms';
+import { AuthenticationComponent } from './auth/authentication.component';
 
 @NgModule({
   declarations: [
@@ -54,6 +55,7 @@ import { FormsModule } from '@angular/forms';
     RockComponent,
     UserInfoComponent,
     AddProductComponent,
+    AuthenticationComponent
   ],
   imports: [
     BrowserModule,

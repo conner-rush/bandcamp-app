@@ -1,0 +1,77 @@
+<div class="container">
+    <div class="row">
+        <div class="col-a">
+            <form #postForm="ngForm" (ngSubmit)="addStory(postForm.value)">
+              <div class="input-group">
+                <span class = "input-group-text">
+                   First Name
+                </span>
+                <input type ="text" class="form-control" ngModel name="name" required>
+            </div>
+
+            <div class="input-group">
+                <span class = "input-group-text">
+                   Email
+                </span>
+                <input type ="text" class="form-control" ngModel name="name" required>
+            </div>
+
+            <div class="input-group">
+                <span class = "input-group-text">
+                   Confirm Email
+                </span>
+                <input type ="text" class="form-control" ngModel name="name" required>
+            </div>
+
+            <div class="input-group">
+                <span class = "input-group-text">
+                   Password
+                </span>
+                <input type ="Password" class="form-control" ngModel name="name" required>
+            </div>
+
+            <div class="input-group">
+                <span class = "input-group-text">
+                   Confirm Password
+                </span>
+                <input type ="Password" class="form-control" ngModel name="name" required>
+            </div>
+  
+                
+  
+                <button class="btn" type="submit" [disabled]="!postForm.valid">Submit</button>
+            </form>
+        </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+import { Component, OnInit } from '@angular/core';
+import { ProductItemModel } from 'src/app/cards/sidecards/product-item-model';
+import { StoryService } from 'src/app/cards/sidecards/story.service';
+
+@Component({
+  selector: 'fm-add-product',
+  templateUrl: './add-product.component.html',
+  styleUrls: ['./add-product.component.css']
+})
+export class AddProductComponent implements OnInit {
+
+  constructor(private ss:StoryService) { }
+
+  ngOnInit(): void {
+  }
+  
+  addStory(product:ProductItemModel) {
+      console.log("You pressed login");
+      console.log(product);
+      this.ss.addStory(product);
+  }
+}
