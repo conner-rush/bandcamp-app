@@ -14,6 +14,7 @@ import { PopComponent } from './routing/genres/pop.component';
 import { PunkComponent } from './routing/genres/punk.component';
 import { RockComponent } from './routing/genres/rock.component';
 import { AddProductComponent } from './forms/add-product/add-product.component';
+import { AuthenticationComponent } from './auth/authentication.component';
 
 const routes:Route [] = [
   {
@@ -57,6 +58,10 @@ const routes:Route [] = [
   },
   {
     path: 'admin', component: AddProductComponent
+  },
+
+  {
+    path: 'auth-test', component: AuthenticationComponent
   }
 ];
 
